@@ -16,8 +16,7 @@ function Info(props) {
           </li>
         ))}
       </ul>
-      <h3>total</h3>
-      <p>{totatl}</p>
+      <h3>total :{totatl}</h3>
     </div>
   );
 }

@@ -18,7 +18,7 @@ export const ProductList = (props) => {
           <li key={pro.id} className={`pro-${pro.id} list-unstyled`}>
             {pro.title} có giá {pro.price}
             <button
-              className="btn btn-success ml-3 mx-3"
+              className="btn btn-success ml-3"
               onClick={() => handleAddToCart(pro)}
             >
               Add to cart
